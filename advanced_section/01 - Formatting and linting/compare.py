@@ -8,3 +8,10 @@ def print_hello(name: str) -> str:
 		    str: The greeting
 	  """
     print('Hello, ' + name)
+
+
+def demo(name: str) -> str:
+    print('hello ' + name)
+
+
+demo('susan')
