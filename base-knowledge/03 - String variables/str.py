@@ -62,11 +62,18 @@ Python 的字符串常用内建函数如下：
 39	zfill (width)  返回长度为 width 的字符串，原字符串右对齐，前面填充0
 40	isdecimal()  检查字符串是否只包含十进制字符，如果是返回 true，否则返回 false。
 """
-
-name = 'sijun'
-
+name = 'sijun!!'
 # result = name.capitalize()
 # result = name.center(20, 'y')
-sub = 'i'
-result = name.count(sub, start=0, end=len(name))
+
+# sub = 'i'
+# result = name.count(sub, 0, len(name))
+
+# result_UTF8 = name.encode('UTF-8')
+# result_GBK = name.encode('GBK')
+
+# result = result_UTF8.decode('UTF-8', 'strict')
+# print(result_UTF8)
+# print(result_GBK)
+result = name.endswith('!!', 0, len(name))
 print(result)
