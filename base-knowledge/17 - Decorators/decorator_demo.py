@@ -1,3 +1,8 @@
+"""
+装饰器格式 装饰器名字
+"""
+
+
 def logger(function):
 
     def wrapper(*args, **kwargs):
