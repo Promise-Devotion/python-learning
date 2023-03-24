@@ -17,12 +17,15 @@ class Myclass:
     def __init__(self, name) -> None:
         self.name = name
 
-    def say(self, name):
+    def say(self):
         print(self.name)
 
 
 # 实例化一个对象demo
 demo = Myclass('jim')
-print(demo)
 
-demo.say('hanmeimei')
+# demo.name = 'lilei'
+print(demo.name)
+print(demo.say)
+
+demo.say()
