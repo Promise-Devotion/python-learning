@@ -12,6 +12,7 @@ Class instances can also have methods (defined by its class) for modifying its s
 
 
 # attetion, here is class not def
+# Myclass后面可以使用括号也可以不用 有三种写法1、class Myclass:2、class Myclass():3、class Myclass(object):
 class Myclass:
 
     def __init__(self, name) -> None:
