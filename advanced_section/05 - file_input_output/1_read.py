@@ -5,3 +5,5 @@ print('\nIs this readable?' + str(stream.readable()))
 # print('\nRead to end of line?' + stream.readline())
 print('\nRead all lines:\n' + str(stream.readlines()))
 # print(stream)
+
+stream.close()

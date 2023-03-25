@@ -9,3 +9,5 @@ alllines = stream.readlines()
 out.write('Add a new line\n')
 
 out.writelines(alllines)
+
+out.close()
